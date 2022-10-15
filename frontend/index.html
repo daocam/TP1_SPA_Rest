@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>SPA Rest Twitter</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-2 px-4 bg-primary">
+        <ul class="navbar-nav fs-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/" data-link>Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/posts" data-link>Posts</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container py-3">
+        <div id="app"></div>
+    </div>
+    
+    <script src="./static/js/bootstrap.min.js"></script>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
